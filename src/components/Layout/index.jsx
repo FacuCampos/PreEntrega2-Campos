@@ -1,14 +1,14 @@
-import Navbar from "../Navbar"
+import { Navbar , Footer} from '../../components'
+import './layout.css'
 
-
-const Layout = (prop, {children})=> {
+const Layout = ({children})=> {
     return (
        <>
-       <Navbar />
-       <main className="main">
-            <h1>{prop.greeting}</h1>
-           {children}
-       </main>
+        <Navbar />
+        <main className="mainClass">
+            {children}
+        </main>
+        <Footer />
        </>
     )
    }

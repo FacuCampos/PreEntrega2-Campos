@@ -3,21 +3,21 @@
     padding: 0;
     box-sizing: border-box;
   
-  }
+}
   
-  html {
-    font-size: 62.5%;
-  }
-  
-  body{
-    background-color: #faf0da;
-    position: relative;
-  
-    width: 100%;
-  }
-  
-  h1{
-  font-size: 5rem;
-  text-align: center;
-  margin: 20px 0 20px 0;
-  }
+html {
+  font-size: 62.5%;
+}
+
+.cuerpo{
+  background-color: #faf0da;
+  position: relative;
+
+  width: 100%;
+}
+
+.titulo{
+font-size: 5rem;
+text-align: center;
+margin: 20px 0 20px 0;
+}

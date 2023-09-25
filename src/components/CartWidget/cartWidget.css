@@ -16,26 +16,37 @@
     align-items: center;
     justify-content: center;
     padding-left: 10px;
+    text-decoration: none;
 }
 
 .carrito .divCart .cartIcon{
     position: relative;
     right: -5px;
     top: -5px;
+
+    color: white;
+    font-size: 30px;
 }
 
 .carrito .divCart .contador{
     display: flex;
     align-items: center;
     justify-content: center;
+
     background-color: #e6344a;
+
     border-radius: 100%;
+
     width: 25px;
     height: 25px;
+
     text-align: center;
+
     border: 2px solid black;
     color: white;
-    font-size: 2rem;
+
+    font-size: 1.5rem;
+
     position: relative;
     bottom: -10px;
     left: -5px;

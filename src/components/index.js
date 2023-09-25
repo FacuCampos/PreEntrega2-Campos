@@ -1,0 +1,9 @@
+export { default as Navbar } from './Navbar';
+export { default as Footer } from './Footer';
+export { default as Layout } from './Layout';
+export { default as Slider } from './Carousel';
+export { default as CartWidget } from './CartWidget';
+export { default as Item } from './Item';
+export { default as ItemDetail } from './ItemDetail';
+export { default as ItemList } from './ItemList';
+export { default as DetailContador } from './detailContador'

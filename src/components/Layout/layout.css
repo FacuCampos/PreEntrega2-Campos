@@ -1,6 +1,4 @@
-.main{
-    position: relative;
-    top: 80px;
-    margin: 80px 20px 20px 20px;
-    width: 100%;
+.mainClass{
+    min-height: calc(100vh - 175px);
+    padding-bottom: 50px;
 }

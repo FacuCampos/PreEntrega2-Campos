@@ -1,4 +1,4 @@
-export const Productos = [
+export const productos = [
     {
         id: '1',
         nombre: 'Catan',
@@ -7,6 +7,8 @@ export const Productos = [
         alt: 'catan',
         categoria: 'Juego de mesa',
         empresa: 'Devir',
+        destacado: true,
+        stock: 10
     },
     {
         id: '2',
@@ -16,6 +18,8 @@ export const Productos = [
         alt: 'bang',
         categoria: 'Juego de mesa',
         empresa: 'Da Vinci Games',
+        destacado: true,
+        stock: 6
     },
     {
         id: '3',
@@ -25,6 +29,8 @@ export const Productos = [
         alt: 'sushi go party',
         categoria: 'Juego de mesa',
         empresa: 'Devir',
+        destacado: true,
+        stock: 16
     },
     {
         id: '4',
@@ -33,7 +39,9 @@ export const Productos = [
         img: 'cubo-rubik.jpg',
         alt: 'cubo-rubik',
         categoria: 'Cubo Rubik',
-        empresa: 'Hasbro',
+        empresa: 'Rubiks',
+        destacado: false,
+        stock: 25
     },
     {
         id: '5',
@@ -43,6 +51,8 @@ export const Productos = [
         alt: 'manual DnD',
         categoria: 'Juego de rol',
         empresa: 'Wizards of the Coast',
+        destacado: false,
+        stock: 4
     },
     {
         id: '6',
@@ -52,6 +62,8 @@ export const Productos = [
         alt: 'dados',
         categoria: 'Dados',
         empresa: 'T&G',
+        destacado: false,
+        stock: 12
     },
     {
         id: '7',
@@ -61,6 +73,8 @@ export const Productos = [
         alt: 'manual Cthulhu 7e',
         categoria: 'Juego de rol',
         empresa: 'Edge Entertainment',
+        destacado: true,
+        stock: 3
     },
     {
         id: '8',
@@ -70,6 +84,8 @@ export const Productos = [
         alt: 'alice is missing',
         categoria: 'Juego de mesa',
         empresa: 'Devir',
+        destacado: true,
+        stock: 1
     },
     {
         id: '9',
@@ -79,5 +95,29 @@ export const Productos = [
         alt: 'stone age',
         categoria: 'Juego de mesa',
         empresa: 'Devir',
+        destacado: true,
+        stock: 3
+    },
+    {
+        id: '10',
+        nombre: 'Wavelength',
+        precio: 58000,
+        img: 'Wavelength.jpg',
+        alt: 'wavelength',
+        categoria: 'Juego de mesa',
+        empresa: 'Arrakis Games',
+        destacado: true,
+        stock: 2
+    },
+    {
+        id: '11',
+        nombre: 'Rubik Pyramix',
+        precio: 5600,
+        img: 'RubikPyraminx.jpg',
+        alt: 'rubik pyraminx',
+        categoria: 'Cubo rubik',
+        empresa: 'Rubiks',
+        destacado: true,
+        stock: 9
     },
 ];

@@ -13,6 +13,10 @@
     margin: 0;
 
     z-index: 9999;
+
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 .navegador .logoLink{
@@ -61,14 +65,20 @@
     background-color: #e6344a;
 }
 
-.navegador .navList .navLink div{
+.navegador .navList .navLink .navLinkDiv{
     display: flex;
 }
 
-.navegador .navList .navLink div p{
-    margin-left: 10px;
+.navegador .navList .navLink .navLinkDiv .navLinkIcon{
+    align-self: center;
 }
 
-.navegador .navList .navLink div .chevron{
+.navegador .navList .navLink .navLinkDiv .navLinkP{
+    margin: 0 0 0 10px;
+}
+
+.navegador .navList .navLink .navLinkDiv .chevron{
     margin: 5px 0 0 10px;
+    align-self: center;
+    width: 17px;
 }
