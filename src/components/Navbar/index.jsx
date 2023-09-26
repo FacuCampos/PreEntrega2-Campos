@@ -1,13 +1,14 @@
 import './navbar.css';
-import CartWidget from '../CartWidget';
-import { House, Shop, CupHot, Bag, ChevronDown} from 'react-bootstrap-icons';
 import { Link } from 'react-router-dom';
+import { House, Shop, CupHot, Bag} from 'react-bootstrap-icons';
+import logo from '../../assets/img/marca/logo-expandido.svg'
+import CartWidget from '../CartWidget';
 
 
 const Navbar = () => {
     return (
         <nav className='navegador'>
-            <Link to={'/'} className='logoLink'><img className='logoNav' src="/src/assets/img/marca/logo-expandido.svg" alt="logo de la marca"/></Link>
+            <Link to={'/'} className='logoLink'><img className='logoNav' src={logo} alt="logo de la marca"/></Link>
             <div className='navList'>
                 <Link to={'/'} className='navLink'>
                     <div className='navLinkDiv'>
