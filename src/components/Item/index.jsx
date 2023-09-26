@@ -7,7 +7,7 @@ const Item = ({producto}) => {
 
     return(
         <div className='itemCard'>
-            <img className='cardImg' src={`../../../src/assets/img/productos/${ img }`} alt={ alt } />
+            <img className='cardImg' src={`/img/productos/${ img }`} alt={ alt } />
             <div className='cardInfo'>
                 <h2 className='cardTitulo'>{ nombre }</h2>
                 <p className='cardPrecio'><strong>$ { precio.toLocaleString() }</strong></p>

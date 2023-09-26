@@ -69,7 +69,7 @@ export const productos = [
         id: '7',
         nombre: 'Manual de la llamada de Cthulhu',
         precio: 36000,
-        img: 'manualCthulhu7ed.jpg',
+        img: 'manualCthulhu7Ed.jpg',
         alt: 'manual Cthulhu 7e',
         categoria: 'Juego de rol',
         empresa: 'Edge Entertainment',

@@ -5,7 +5,7 @@ const ItemDetail = ({nombre , img , alt , precio , categoria , empresa, stock}) 
 
     return (
         <div className='detailContenedor'>
-            <img src={`../../src/assets/img/productos/${img}`} alt={alt} className='detailImg'/>
+            <img src={`/img/productos/${img}`} alt={alt} className='detailImg'/>
             <DetailContador stock={stock}/>
             <div className='detailInfo'>
                 <h1 className='detailTitulo'>{nombre}</h1>
