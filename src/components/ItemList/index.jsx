@@ -1,12 +1,24 @@
 import './itemList.css';
 import Item from '../Item';
+import { useEffect, useState } from 'react';
+import { SyncLoader } from 'react-spinners';
 
 const ItemList = ({catalogo}) => {
+
+    const [cargando, setCargando] = useState(false);
+
+    useEffect(() => {
+        setCargando(true);
+        setTimeout(()=> {
+            setCargando(false);
+            console.log(cargando);
+        }, 1000)
+    },[catalogo])
 
     return(
         <div className='itemContenedor'>
             {
-                catalogo ?
+                (!cargando && catalogo) ?
 
                 <div className='productosGrid'>
                     {
@@ -15,6 +27,7 @@ const ItemList = ({catalogo}) => {
                 </div>:
                 <div className='divListaVacia'>
                     <h2>Cargando catálogo...</h2>
+                    <SyncLoader color={'#000'} size={10}/>
                 </div>
             }
         </div>
