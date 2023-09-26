@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Slider() {
   return (
-    <Carousel interval={2000} wrap={true}>
+    <Carousel interval={5000} wrap={true}>
       <Carousel.Item>
         <img
           className="d-block w-100"

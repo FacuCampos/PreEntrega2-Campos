@@ -19,6 +19,10 @@ const routes = createBrowserRouter([
         element: <TiendaPage />
     },
     {
+        path: '/tienda/categoria/:categoria',
+        element: <TiendaPage />
+    },
+    {
         path: '/tienda/producto/:idProducto',
         element: <ItemDetailContainerPage />
     }

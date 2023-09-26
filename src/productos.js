@@ -38,7 +38,7 @@ export const productos = [
         precio: 9500,
         img: 'cubo-rubik.jpg',
         alt: 'cubo-rubik',
-        categoria: 'Cubo Rubik',
+        categoria: 'Cubo rubik',
         empresa: 'Rubiks',
         destacado: false,
         stock: 25

@@ -23,7 +23,6 @@ const Navbar = () => {
                         <p className='navLinkP'>
                             Tienda
                         </p>
-                        <ChevronDown className='chevron'/>
                     </div>
                 </Link>
                 <Link to={'/contacto'} className='navLink'>

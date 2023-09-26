@@ -7,7 +7,7 @@ import './ItemDetailContainer.css';
 
 const ItemDetailContainer = () => {
 
-    const {idProducto} = useParams();
+    const id = useParams().idProducto;
 
     const [producto, setProducto] = useState({});
     const [cargando, setCargando] = useState(true);
@@ -16,7 +16,7 @@ const ItemDetailContainer = () => {
 
     useEffect(() => {
         setTimeout(() => {
-            setProducto(productos.find((prod) => prod.id === idProducto));
+            setProducto(productos.find((prod) => prod.id === id));
             setCargando(false);
         }, 1000)
     }, [])
